@@ -1,0 +1,12 @@
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+/android/
+/ios/
+assets/brand/png/
+*.iml
+.idea/
+.DS_Store

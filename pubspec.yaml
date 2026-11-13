@@ -1,0 +1,53 @@
+name: zuniq
+description: ZUNIQ - Understand Anything. AI-powered everyday understanding app.
+publish_to: "none"
+version: 0.16.1+17
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.0.0
+  shared_preferences: ^2.2.3
+  flutter_svg: ^2.0.10
+  google_fonts: ^6.2.1
+  package_info_plus: ^8.0.0
+  lottie: ^3.1.2
+  image_picker: ^1.1.2
+  google_mlkit_text_recognition: ^0.13.1
+  http: ^1.2.2
+  google_mlkit_document_scanner: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/brand/
+    - assets/mascot/
+    - assets/lottie/
+    - assets/mascot_anim/
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/brand/png/app_icon.png"
+  adaptive_icon_background: "#287FE8"
+  adaptive_icon_foreground: "assets/brand/png/launcher_foreground.png"
+  adaptive_icon_monochrome: "assets/brand/png/launcher_monochrome.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/brand/png/splash_symbol.png
+  android_12:
+    color: "#FFFFFF"
+    image: assets/brand/png/splash_symbol.png
